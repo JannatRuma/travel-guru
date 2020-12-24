@@ -1,0 +1,14 @@
+.single-place img{
+    height: 350px;
+    position: relative;
+    border-radius:25px;    
+    border:2px solid transparent;
+    transition:.3s;
+}
+.single-place img:hover{
+    border:3px solid #ffc107;
+}
+.single-place h3{
+    position: absolute;
+    bottom:0;
+}

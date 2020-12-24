@@ -1,0 +1,11 @@
+.hotel-info h5,.rating h6{
+    font-weight: bold;
+    font-size: 17px;
+}
+.hotel-info p{
+    font-size: 15px;
+    color: gray;
+}
+.rating .star-icon{
+    color:#ffc107;
+}

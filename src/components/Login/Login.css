@@ -1,0 +1,62 @@
+.login-form{
+    border:1px solid #a7a7a7;
+}
+.login-form .custom-input{
+    border:none;
+    border-bottom:1px solid #a7a7a7;
+    width:100%;
+    margin:20px 0;
+    font-weight:bold;
+}
+input[type=submit] {
+    background-color: #F8A519;
+    border: 1px solid transparent;
+    padding:10px;
+    transition: all .5s ease-in-out;
+}
+input[type=submit]:hover{
+    border:1px solid #F8A519;
+    background-color: #fff;
+}
+.login-form a{
+    color: #F8A519;
+    font-weight:bold;
+}
+.login-others img{
+    height: 25px;
+    width: 25px;
+}
+.login-others button{
+    width:30%;
+    padding:10px 30px;
+    margin:10px;
+    border:1px solid #a7a7a7;
+    border-radius:50px;
+    transition: all .5s ease-in-out;
+    font-weight:bold;
+}
+.login-others button:hover{
+    border:1px solid #F8A519;
+    background-color:#F8A519;
+}
+.login-or{
+    position: relative;
+}
+.login-or::before{
+    position: absolute;
+    content: "";
+    width: 130px;
+    height: 1px;
+    background-color: #a7a7a7;
+    left: 120%;
+    bottom: 7px;
+}
+.login-or::after{
+    position: absolute;
+    content: "";
+    width: 130px;
+    height: 1px;
+    background-color: #a7a7a7;
+    right: 120%;
+    bottom: 7px;
+}

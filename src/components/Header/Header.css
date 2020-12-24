@@ -1,0 +1,11 @@
+.header .logo{
+    height: 50px;
+}
+.customNav .nav-link {
+    padding-right: 2.5rem!important;
+    font-weight:600!important;
+    color: white!important;
+}
+.form-group {
+    margin-bottom: 0!important;
+}
